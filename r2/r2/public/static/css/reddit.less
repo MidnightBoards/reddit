@@ -10137,12 +10137,12 @@ body.with-listing-chooser {
 
         &.selected {
             position: relative;
-            background: lighten(#cee3f8, 6%);
+            background: linear-gradient(to right, lighten(#cee3f8, 6%), #fff);
             border-color: lighten(#369, 40%);
-            margin-right: -@lc-grippy-width;
-            padding-right: @lc-grippy-width;
-            box-shadow: -30px 0 30px -15px rgba(255, 255, 255, .5) inset,
-                        0 2px @lc-shadow-width -1px rgba(0, 0, 0, .2);
+            /*margin-right: -@lc-grippy-width;
+            padding-right: @lc-grippy-width;*/
+            box-shadow: -30px 0 30px -15px rgba(255, 255, 255, .5) inset/*,
+                        0 2px @lc-shadow-width -1px rgba(0, 0, 0, .2)*/;
             z-index: 35;
 
             a {
